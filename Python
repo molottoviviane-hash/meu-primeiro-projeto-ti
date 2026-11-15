@@ -56,3 +56,16 @@ total = sum(despesas)
 
 print("Despesas registradas:", despesas)
 print("Total das despesas:", total)
+
+print("=== CONTROLE FINANCEIRO ===")
+
+despesas = []
+
+for numero in range(1, 4):
+    valor = float(input("Digite o valor da despesa: "))
+    despesas.append(valor)
+
+total = sum(despesas)
+
+print("Despesas registradas:", despesas)
+print("Total das despesas:", total)
