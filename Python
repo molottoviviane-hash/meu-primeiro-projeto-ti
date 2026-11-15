@@ -35,8 +35,11 @@ total = sum(despesas)
 print("Total das despesas:")
 print(total)
 
-def calcular_saldo(receita, despesa):
-    saldo = receita - despesa
-    print("O saldo é:", saldo)
 
-calcular_saldo(5000, 2300)
+def somar_despesas(valor1, valor2, valor3):
+    total = valor1 + valor2 + valor3
+    return total
+
+resultado = somar_despesas(500, 800, 350)
+
+print("Total das despesas:", resultado)
