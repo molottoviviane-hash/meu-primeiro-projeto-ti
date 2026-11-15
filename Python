@@ -10,3 +10,10 @@ saldo = receita - despesa
 
 print("O saldo final é:")
 print(saldo)
+
+pagamento = input("O pagamento foi realizado? (sim/nao): ")
+
+if pagamento == "sim":
+    print("Pagamento aprovado!")
+else:
+    print("Pagamento pendente!")
