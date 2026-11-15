@@ -17,3 +17,6 @@ if pagamento == "sim":
     print("Pagamento aprovado!")
 else:
     print("Pagamento pendente!")
+
+for numero in range(1, 6):
+    print("Conferindo pagamento:", numero)
