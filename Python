@@ -1,0 +1,8 @@
+
+receita = 5000
+despesa = 2300
+
+saldo = receita - despesa
+
+print("Seu saldo é:")
+print(saldo)
