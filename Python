@@ -7,3 +7,4 @@ saldo = receita - despesa
 
 print("Seu saldo é:")
 print(saldo)
+print("Cálculo realizado com sucesso!")
