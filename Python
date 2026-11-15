@@ -43,3 +43,16 @@ def somar_despesas(valor1, valor2, valor3):
 resultado = somar_despesas(500, 800, 350)
 
 print("Total das despesas:", resultado)
+
+print("=== CONTROLE FINANCEIRO ===")
+
+despesas = []
+
+for numero in range(1, 4):
+    valor = float(input("Digite o valor da despesa: "))
+    despesas.append(valor)
+
+total = sum(despesas)
+
+print("Despesas registradas:", despesas)
+print("Total das despesas:", total)
