@@ -1,10 +1,12 @@
 
 
-receita = 5000
-despesa = 2300
+
+print("CONTROLE FINANCEIRO")
+
+receita = float(input("Digite o valor da receita: "))
+despesa = float(input("Digite o valor das despesas: "))
 
 saldo = receita - despesa
 
-print("Seu saldo é:")
+print("O saldo final é:")
 print(saldo)
-print("Cálculo realizado com sucesso!")
