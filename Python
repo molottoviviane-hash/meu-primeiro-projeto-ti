@@ -34,3 +34,9 @@ total = sum(despesas)
 
 print("Total das despesas:")
 print(total)
+
+def calcular_saldo(receita, despesa):
+    saldo = receita - despesa
+    print("O saldo é:", saldo)
+
+calcular_saldo(5000, 2300)
