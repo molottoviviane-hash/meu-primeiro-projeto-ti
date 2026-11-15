@@ -1,4 +1,4 @@
-# meu-primeiro-projeto-ti
+# Tecnologias em Aprendizado
 
 # Olá! Seja bem-vindo(a) ao meu GitHub!
 
